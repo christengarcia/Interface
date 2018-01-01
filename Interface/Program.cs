@@ -13,5 +13,13 @@ namespace Interface
         }
     }
 
-
+    interface IShape
+    {
+        int MyNumber
+        {
+            get;
+            set;
+        }
+        void InterfaceMethod();
+    }
 }
