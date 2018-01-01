@@ -40,6 +40,9 @@ namespace Interface
                     myNumber = value;
             }
         }
-
+        public void InterfaceMethod()
+        {
+            Console.WriteLine("The number is {0}.", MyNumber);
+        }
     }
 }
